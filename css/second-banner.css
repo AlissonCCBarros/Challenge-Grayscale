@@ -1,0 +1,46 @@
+.second-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 30% 0 30%;
+  background: linear-gradient(rgb(17, 17, 17), rgba(22, 22, 22, 0.9), rgba(22, 22, 22, 0.8));
+  height: 600px;;
+  width: 100%;
+}
+
+.second-title {
+  color: #fff;
+  line-height: 3rem;
+  font-size: 1.6rem;
+}
+
+
+.second-text {
+  font-size: 1rem;
+  color: #949494;
+  text-align: center;
+  line-height: 1.5rem;
+  padding-bottom: 5rem;
+}
+
+.second-text > span {
+  color: #4F837F;
+}
+
+.img-ipad {
+  max-width: 150%;
+  vertical-align: middle;
+}
+
+@media (max-width: 599px) {
+
+  .second-title {
+    font-size: 1.2rem;
+  }
+
+  .second-banner {
+    height: 450px;;
+  }
+
+}
